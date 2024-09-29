@@ -1,0 +1,182 @@
+main{
+display: flex;
+}
+.image{
+box-sizing: border-box;
+width: 414px;
+height: 366px;
+
+background: #FFFFFF;
+border-radius: 2px;
+}
+h2{
+width: 501px;
+height: 93px;
+left: 124px;
+top: 91px;
+
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+color: #000000;
+}
+.container p{
+width: 662px;
+height: 374px;
+left: 124px;
+top: 202px;
+
+
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #000000;
+}
+footer{
+    display: flex;
+}
+.section h3{
+
+width: 150px;
+height: 39px;
+left: 488px;
+top: 740px;
+
+
+font-weight: 700;
+font-size: 25px;
+line-height: 130%;
+color: #000000;
+
+}
+.section p{
+
+width: 150px;
+height: 39px;
+left: 733px;
+top: 780px;
+
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+color: #000000;
+
+}
+.image2{
+box-sizing: border-box;
+width: 350px;
+height: 260px;
+
+background: #FFFFFF;
+border-radius: 2px;
+}
+.div{
+    display: inline;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+section div{
+    width: 40%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .image2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .image2{
+        display: none;
+    }
+    .image{
+
+position: absolute;
+width: 170.55px;
+height: 160.29px;
+left: 101px;
+top: 338px;
+display:flex;
+flex-direction: row;
+justify-content: center;
+
+    }
+    h3{
+        /* 8 lessons */
+
+width: 69.9px;
+height: 18.17px;
+left: 33px;
+top: 544px;
+
+font-weight: 700;
+font-size: 12px;
+line-height: 130%;
+
+color: #000000;
+    }
+    section p{
+        /* Duration of each session */
+
+width: 86.89px;
+height: 18.5px;
+left: 143px;
+top: 562px;
+/* position: absolute; */
+font-weight: 400;
+font-size: 10px;
+line-height: 130%;
+/* or 13px */
+
+color: #000000;
+
+    }
+    .container p{
+        /* Sometimes movies are more complicated than four-volume novels. But you learn to read books in school, but you don't learn to watch movies. And without preparation, it can be difficult to enjoy watching a movie. In this 8-session course we will learn how to be conscious viewers. We will get acquainted with the stages of film production and learn how to watch a movie through the eyes of a screenwriter, director and editor. We will understand genres and look at the most important films, from Citizen Kane to The Matrix. */
+
+width: 308.47px;
+height: 174.27px;
+left: 33px;
+top: 108px;
+
+
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* or 18px */
+
+color: #000000;
+    }
+    section div{
+        position: absolute;
+        bottom: 0px;
+        width: 190px;
+        display: flex;
+        flex-direction: column;
+    }
+    .p1{
+        margin-right: 50px; }
+    .p2{
+        margin-left: 190px;}
+    .p3{
+    margin-left: 350px; 
+      
+    }
+    .h31{
+        margin-right: 50px;
+    }
+    .h32{
+        margin-left: 190px;
+    }
+    .h33{
+        margin-left: 350px;
+    }
+   
+}
+
